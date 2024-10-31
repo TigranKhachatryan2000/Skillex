@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterPanel calls handlePriceRangeChange when price is adjusted 1`] = `
+<DocumentFragment>
+  <div>
+    <h3>
+      Filter by Category
+    </h3>
+    <label
+      for="category"
+    >
+      Category
+    </label>
+    <select
+      id="category"
+    >
+      <option
+        value=""
+      >
+        All
+      </option>
+      <option
+        value="Electronics"
+      >
+        Electronics
+      </option>
+      <option
+        value="Footwear"
+      >
+        Footwear
+      </option>
+      <option
+        value="Clothing"
+      >
+        Clothing
+      </option>
+    </select>
+    <h3>
+      Filter by Brand
+    </h3>
+    <label
+      for="brand"
+    >
+      Brand
+    </label>
+    <select
+      id="brand"
+    >
+      <option
+        value=""
+      >
+        All
+      </option>
+      <option
+        value="Brand A"
+      >
+        Brand A
+      </option>
+      <option
+        value="Brand B"
+      >
+        Brand B
+      </option>
+    </select>
+    <h3>
+      Filter by Price
+    </h3>
+    <input
+      max="500"
+      min="0"
+      step="10"
+      type="range"
+    />
+    <h3>
+      Filter by Rating
+    </h3>
+    <input
+      max="5"
+      min="0"
+      step="0.1"
+      type="number"
+      value="0"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`FilterPanel calls setFilters when rating is changed 1`] = `
+<DocumentFragment>
+  <div>
+    <h3>
+      Filter by Category
+    </h3>
+    <label
+      for="category"
+    >
+      Category
+    </label>
+    <select
+      id="category"
+    >
+      <option
+        value=""
+      >
+        All
+      </option>
+      <option
+        value="Electronics"
+      >
+        Electronics
+      </option>
+      <option
+        value="Footwear"
+      >
+        Footwear
+      </option>
+      <option
+        value="Clothing"
+      >
+        Clothing
+      </option>
+    </select>
+    <h3>
+      Filter by Brand
+    </h3>
+    <label
+      for="brand"
+    >
+      Brand
+    </label>
+    <select
+      id="brand"
+    >
+      <option
+        value=""
+      >
+        All
+      </option>
+      <option
+        value="Brand A"
+      >
+        Brand A
+      </option>
+      <option
+        value="Brand B"
+      >
+        Brand B
+      </option>
+    </select>
+    <h3>
+      Filter by Price
+    </h3>
+    <input
+      max="500"
+      min="0"
+      step="10"
+      type="range"
+    />
+    <h3>
+      Filter by Rating
+    </h3>
+    <input
+      max="5"
+      min="0"
+      step="0.1"
+      type="number"
+      value="0"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`FilterPanel renders filter options correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <h3>
+      Filter by Category
+    </h3>
+    <label
+      for="category"
+    >
+      Category
+    </label>
+    <select
+      id="category"
+    >
+      <option
+        value=""
+      >
+        All
+      </option>
+      <option
+        value="Electronics"
+      >
+        Electronics
+      </option>
+      <option
+        value="Footwear"
+      >
+        Footwear
+      </option>
+      <option
+        value="Clothing"
+      >
+        Clothing
+      </option>
+    </select>
+    <h3>
+      Filter by Brand
+    </h3>
+    <label
+      for="brand"
+    >
+      Brand
+    </label>
+    <select
+      id="brand"
+    >
+      <option
+        value=""
+      >
+        All
+      </option>
+      <option
+        value="Brand A"
+      >
+        Brand A
+      </option>
+      <option
+        value="Brand B"
+      >
+        Brand B
+      </option>
+    </select>
+    <h3>
+      Filter by Price
+    </h3>
+    <input
+      max="500"
+      min="0"
+      step="10"
+      type="range"
+    />
+    <h3>
+      Filter by Rating
+    </h3>
+    <input
+      max="5"
+      min="0"
+      step="0.1"
+      type="number"
+      value="0"
+    />
+  </div>
+</DocumentFragment>
+`;
